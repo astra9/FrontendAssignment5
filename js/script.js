@@ -164,7 +164,6 @@ dc.loadAboutPage = function (){
       let randomNum = Math.floor(Math.random()*5)+1;
       for(let i=1; i<=5; i++){
           let toSubstitute = "toSubstitute-"+i;
-          console.log(toSubstitute)
           if(i<=randomNum){
             newAboutHtml =  insertProperty(newAboutHtml,toSubstitute, 'fa-solid fa-star')
           }
