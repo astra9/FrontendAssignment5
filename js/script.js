@@ -171,7 +171,6 @@ dc.loadAboutPage = function (){
           else{
             newAboutHtml =  insertProperty(newAboutHtml,toSubstitute, 'fa-regular fa-star')
           }
-          console.log(newAboutHtml)
       }
       toSubstitute="toSubstitute"
       newAboutHtml =  insertProperty(newAboutHtml, toSubstitute, `${randomNum}-star rating`)
